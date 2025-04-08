@@ -138,11 +138,11 @@ transition: color 0.3s;
     padding: 20px 40px;
   }
   .hamburger {
-    display: none;
+    display: block;
   }
 
   .get-in-touch{
-    display: block;
+    display: none;
   }
 
 
