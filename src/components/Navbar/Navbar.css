@@ -148,8 +148,10 @@ transition: color 0.3s;
 
 
   .nav-menu {
-    margin: 0 30px;
+    display: none;
+    flex-direction: column;
   }
+
 }
 
 @media (max-width: 768px) {
