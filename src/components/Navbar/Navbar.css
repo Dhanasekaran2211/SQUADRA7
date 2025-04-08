@@ -107,7 +107,7 @@ transition: color 0.3s;
 .get-in-touch a {
   background: #F8E831;       /* Yellow */
   color: #000000;            /* Black */
-  padding: 12px 24px;
+  padding: 5px 8px;
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
@@ -128,7 +128,7 @@ transition: color 0.3s;
   display: none;
   font-size: 30px;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #000000;
   transition: color 0.3s;
 }
 
@@ -137,9 +137,11 @@ transition: color 0.3s;
   .navbar {
     padding: 20px 40px;
   }
+  .hamburger {
+    display: block;
+  }
 
-
-  .get-in-touch-btn {
+  .get-in-touch{
     display: none;
   }
 
@@ -155,12 +157,18 @@ transition: color 0.3s;
     display: none;
     flex-direction: column;
   }
-  .get
+  
+  .get-in-touch{
+    display: none;
+  }
 
   .nav-menu.open {
     display: flex;
   }
-
+  .navbar-logo {
+    flex: 0;
+    
+  }
   .hamburger {
     display: block;
   }
