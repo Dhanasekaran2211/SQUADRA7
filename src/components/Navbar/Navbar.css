@@ -138,6 +138,13 @@ transition: color 0.3s;
     padding: 20px 40px;
   }
 
+
+  .get-in-touch-btn {
+    display: none;
+  }
+
+
+
   .nav-menu {
     margin: 0 30px;
   }
@@ -148,6 +155,7 @@ transition: color 0.3s;
     display: none;
     flex-direction: column;
   }
+  .get
 
   .nav-menu.open {
     display: flex;

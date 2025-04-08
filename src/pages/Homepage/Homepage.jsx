@@ -14,7 +14,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 const Homepage = () => {
   return (
-    <div>
+    <div className="homepage">
       <Navbar/>
       <HeroBanner />
       <About />
