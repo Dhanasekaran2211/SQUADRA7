@@ -1,0 +1,50 @@
+/* Testimonials.css */
+.testimonials-container {
+    text-align: center;
+    padding: 50px;
+    background: #0e0d0d; /* Luxurious Black */
+    /* color: #ffffff; White Text for Contrast */
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #facc15;
+  }
+  
+  .testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 500px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .client-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .feedback {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .stars {
+    margin: 10px 0;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 18px;
+  }
+  
+  .client-name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

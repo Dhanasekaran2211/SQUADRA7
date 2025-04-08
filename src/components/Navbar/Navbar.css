@@ -1,0 +1,159 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600&display=swap');
+
+/* Container */
+.navbar-container {
+  background-color: #f0ecec;  /* Black */
+  width: 100%;
+  z-index: 999;
+  transition: all 0.4s ease-in-out;
+}
+
+/* Scroll Effect */
+.navbar-container.scrolled {
+  background: linear-gradient(135deg, #0C73EB, #152336);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Top Label */
+.top-label {
+  text-align: center;
+  background: linear-gradient(to right, #6499d68f, #474e58c5);
+  color: #2360bb;  /* Soft Silver */
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 0;
+  transition: 0.3s;
+}
+
+.top-label:hover {
+  background: #696868a9;
+  color: #152336;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  transition: 0.4s;
+}
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  transition: 0.4s;
+  gap: 40px; /* Optional spacing */
+}
+.navbar-logo {
+  flex: 1;
+}
+
+.nav-menu {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+
+.get-in-touch {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Logo */
+.navbar-logo a {
+height: auto;
+width: auto;
+transition: color 0.3s;
+}
+
+.navbar-logo a:hover {
+  color: #FFFFFF;   /* White */
+}
+
+/* Menu */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0 60px;
+}
+
+.nav-menu li {
+  margin: 0 25px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #191a1b;  /* Soft Silver */
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #F8E831;   /* Yellow */
+  transform: scale(1.1);
+}
+
+/* Get in Touch Button */
+.get-in-touch a {
+  background: #F8E831;       /* Yellow */
+  color: #000000;            /* Black */
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+.get-in-touch a:hover {
+  background: #000000;    
+  color: #F8E831;              
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #FFFFFF;
+  transition: color 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .nav-menu {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

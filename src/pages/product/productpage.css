@@ -1,0 +1,23 @@
+.product-page {
+    max-width: auto;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+    height: 50%;
+    background: #0e0d0d; /* Luxurious Black */
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #facc15;
+
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+  }
+  

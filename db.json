@@ -1,0 +1,33 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Naveenkumar I",
+        "image": "https://4kwallpapers.com/images/walls/thumbs_3t/17152.jpg",
+        "description": "Graphics Designer & UI/UX Designer",
+        "price": 25.99
+      },
+      {
+        "id": 2,
+        "name": "Vinothkumar P",
+        "image": "https://4kwallpapers.com/images/walls/thumbs_3t/17629.jpg",
+        "description": "Animator & Graphics Designer & Artist",
+        "price": 49.99
+      },
+      {
+        "id": 3,
+        "name": "Nazeerahamed J",
+        "image": "https://4kwallpapers.com/images/walls/thumbs/20236.jpg",
+        "description": "Digital Marketing & Strategist",
+        "price": 49.99
+      },
+      {
+        "id": 4,
+        "name": "Dhanasekaran P",
+        "image": "https://4kwallpapers.com/images/walls/thumbs_2t/15859.jpg",
+        "description": "Web developer & Researcher & RactJS Developer",
+        "price": 49.99
+      }
+    ]
+  }
+  
